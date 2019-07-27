@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         Password = (EditText) findViewById(R.id.EnterPassword);
         Login = (Button) findViewById(R.id.Login);
         Signup = (Button)findViewById((R.id.Signup));
-        
 
     }
 }
@@ -50,4 +49,14 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 } */
+
+        Private void showAlertbox()
+                {
+                    AlertDialogBuilder.setNavigateButton("Cancel", new DialogInterface.onclickListener()
+                {
+                    @Override
+
+
+                }
+                }
 
